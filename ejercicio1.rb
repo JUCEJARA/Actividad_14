@@ -9,9 +9,9 @@
 
 #Dado el array:
  #a = [1, 2, 3, 9, 1, 4, 5, 2, 3, 6, 6]
-#1. Utilizando map aumentar el valor de cada elemento del array en 1.
-#2. Utilizando map convertir todos los valores a float.
-#3. Utilizando map convertir todos los valores a string.
+#1. Utilizando map aumentar el valor de cada elemento del array en 1. ok
+#2. Utilizando map convertir todos los valores a float. ok 
+#3. Utilizando map convertir todos los valores a string. ok
 #4. Utilizando reject descartar todos los elementos menores a 5 en el array.
 #5. Utilizando select descartar todos los elementos mayores a 5 en el array.
 #6. Utilizando inject obtener la suma de todos los elementos del array.
@@ -30,5 +30,9 @@ a = [1, 2, 3, 9, 1, 4, 5, 2, 3, 6, 6]
 
 
 # ejercicio 2
-c = a.map(&:to_f)
-puts c
+#c = a.map(&:to_f)
+
+
+# ejercicio 3
+c = a.map(&:to_s)
+puts c[0].class # consultar tipo de elemento dentro de un arreglo.
