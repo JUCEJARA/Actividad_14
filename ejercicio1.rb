@@ -23,6 +23,12 @@
 
 a = [1, 2, 3, 9, 1, 4, 5, 2, 3, 6, 6]
 
-b = a.map{|e| e+1}
+# ejercicio 1
+#b = a.map{|e| e+1}
 
-puts b
+#puts b
+
+
+# ejercicio 2
+c = a.map(&:to_f)
+puts c
